@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJYAPIsKit_Example' do
+  pod 'LJYAPIsKit', :path => '../'
+
+  target 'LJYAPIsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
